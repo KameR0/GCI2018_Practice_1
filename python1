@@ -1,9 +1,8 @@
-name= input (" What is your name? ")
-print ("Hello " + name + "!")
-txt= (name)[::-1]
+x = range(10)
+for GCI in x:
+    GCI="GCI is great"
+    print(GCI)
+name = input (" What is your name? ")
+print ("Hello " + name + ", please to meet you!")
+txt= ("Did you know that your name backwards is ") + (name)[::-1] + ("?")
 print (txt)
-GCI="GCI is great"
-i = 1
-while i < 11:
-  print(GCI)
-  i += 1
