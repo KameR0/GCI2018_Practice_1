@@ -1,0 +1,9 @@
+name= input (" What is your name? ")
+print ("Hello " + name + "!")
+txt= (name)[::-1]
+print (txt)
+txt="GCI is great"
+i = 1
+while i < 11:
+  print(txt)
+  i += 1
